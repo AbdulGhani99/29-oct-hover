@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+}
+nav{
+    background-color: darkgray;
+}
+nav ul li{
+    list-style: none;
+    line-height: 40px;
+    height: 40px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav > ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+nav ul li:hover{
+    background-color: wheat;
+
+}
+nav ul li ul li{
+    display: none;
+    
+    
+}
+nav ul li{
+    width: 100%;
+    
+}
+nav ul li:hover ul li{
+    background-color: violet;
+    display: block;
+    
+}
